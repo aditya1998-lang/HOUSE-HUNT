@@ -56,7 +56,7 @@ if(listings.length===0)
     <>
       <p className="exploreHeading">
         Recommended</p>
-       <Swiper sliderPerView={1} pagination={{clickable:true}}>
+       <Swiper sliderperview={1} pagination={{clickable:true}}>
     {listings.map(({data,id})=>(
 
    <SwiperSlide key={id} onClick={()=>
