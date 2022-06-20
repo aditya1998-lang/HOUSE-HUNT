@@ -1,5 +1,5 @@
 import { getAuth ,onAuthStateChanged } from "firebase/auth"
-import { set } from "mongoose"
+
 import { useEffect, useState,useRef } from "react"
 
 export const useAuthStatus = () => {
